@@ -27,7 +27,7 @@ $(document).ready(function () {
   console.log(velas_top);
   //修改蜡烛的高度
   $(".velas").css({
-    top: velas_top + "px",
+    // top: 270 + "px",
   });
 
   //先隐藏所有的文字
