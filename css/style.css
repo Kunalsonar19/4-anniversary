@@ -216,3 +216,26 @@ iframe {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   margin-top: 20px;
 }
+
+@media screen and (max-width: 750px) {
+  #cake {
+    /* margin: -15em auto 0 auto; */
+  }
+  #lara_archer {
+    width: 300px;
+  }
+  .text h1 {
+    font-size: 30px;
+    margin: 20px;
+  }
+  .text p {
+    font-size: 20px;
+    margin: 0 20px;
+    font-weight: 500;
+  }
+  iframe {
+    width: 90%;
+    /* height: 300px; */
+    margin: 10px;
+  }
+}
